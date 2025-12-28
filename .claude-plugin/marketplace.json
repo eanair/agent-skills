@@ -1,0 +1,23 @@
+{
+  "name": "chris-agent-skills",
+  "owner": {
+    "name": "Chris Ko",
+    "email": "chris@mensakorea.org"
+  },
+  "metadata": {
+    "description": "Chris's agent skills collection",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "description": "Collection of agent skills",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./bear",
+        "./commit-message"
+      ]
+    }
+  ]
+}
